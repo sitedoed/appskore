@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 import Home from './views/Home.vue';
-import DesafioVue from './views/Desafio.vue';
+import SobreVue from './views/Sobre.vue';
 import SaibamaisVue from './views/Saibamais.vue'
 import ListaCompletaVue from './views/ListaCompleta.vue'
 import NotFoundVue from "./components/NotFound.vue";
@@ -18,9 +18,9 @@ const routes = [
         component: ListaCompletaVue
     },  
     {
-        path: '/desafio',
-        name: 'desafio',
-        component: DesafioVue
+        path: '/sobre',
+        name: 'sobre',
+        component: SobreVue
     },  
     {
         path: '/saiba_mais',
